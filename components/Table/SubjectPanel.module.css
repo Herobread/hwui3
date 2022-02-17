@@ -1,0 +1,49 @@
+.wrapper {
+    background-color: #F6F6F6;
+}
+
+.wrapper:last-child {
+    border-radius: 0 0 20px 20px;
+}
+
+.wrapper:first-child {
+    border-radius: 20px 20px 0 0;
+}
+
+.container {
+    /* background-color: #F6F6F6; */
+    padding: 20px;
+}
+
+.containerActive {
+    background-color: #FABB18;
+    border-radius: 20px;
+}
+
+
+.timelineContainer {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    top:25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    outline:3.5px solid #FABB18;
+    border-radius: 50%;
+    
+    margin: 0 auto;
+}
+
+.line {
+    height: 100%;
+    width: 3px;
+    background-color: #FABB18;
+    
+    margin: 0 auto;
+}
