@@ -1,7 +1,6 @@
 import styles from './SubjectPanel.module.css'
 
 export default function SubjectPanel({ title, subtitle, info, isActive }) {
-
     const containerStyle = isActive ? styles.container + ' ' + styles.containerActive : styles.container
     const circleStyle = isActive ? styles.circle : styles.circle
     const lineStyle = isActive ? styles.line : styles.line
